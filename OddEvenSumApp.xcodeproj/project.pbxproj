@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54E3868321F7B3E80002A870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E3868221F7B3E80002A870 /* AppDelegate.swift */; };
+		54E3868521F7B3E80002A870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E3868421F7B3E80002A870 /* ViewController.swift */; };
+		54E3868821F7B3E80002A870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E3868621F7B3E80002A870 /* Main.storyboard */; };
+		54E3868A21F7B3E90002A870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E3868921F7B3E90002A870 /* Assets.xcassets */; };
+		54E3868D21F7B3E90002A870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E3868B21F7B3E90002A870 /* LaunchScreen.storyboard */; };
+		54E3869821F7B3E90002A870 /* OddEvenSumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E3869721F7B3E90002A870 /* OddEvenSumAppTests.swift */; };
+		54E386A321F7B3E90002A870 /* OddEvenSumAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E386A221F7B3E90002A870 /* OddEvenSumAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54E3869421F7B3E90002A870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54E3867721F7B3E80002A870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54E3867E21F7B3E80002A870;
+			remoteInfo = OddEvenSumApp;
+		};
+		54E3869F21F7B3E90002A870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54E3867721F7B3E80002A870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54E3867E21F7B3E80002A870;
+			remoteInfo = OddEvenSumApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54E3867F21F7B3E80002A870 /* OddEvenSumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddEvenSumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E3868221F7B3E80002A870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54E3868421F7B3E80002A870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54E3868721F7B3E80002A870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54E3868921F7B3E90002A870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54E3868C21F7B3E90002A870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54E3868E21F7B3E90002A870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E3869321F7B3E90002A870 /* OddEvenSumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddEvenSumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E3869721F7B3E90002A870 /* OddEvenSumAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenSumAppTests.swift; sourceTree = "<group>"; };
+		54E3869921F7B3E90002A870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E3869E21F7B3E90002A870 /* OddEvenSumAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddEvenSumAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E386A221F7B3E90002A870 /* OddEvenSumAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenSumAppUITests.swift; sourceTree = "<group>"; };
+		54E386A421F7B3E90002A870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54E3867C21F7B3E80002A870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E3869021F7B3E90002A870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E3869B21F7B3E90002A870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54E3867621F7B3E80002A870 = {
+			isa = PBXGroup;
+			children = (
+				54E3868121F7B3E80002A870 /* OddEvenSumApp */,
+				54E3869621F7B3E90002A870 /* OddEvenSumAppTests */,
+				54E386A121F7B3E90002A870 /* OddEvenSumAppUITests */,
+				54E3868021F7B3E80002A870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54E3868021F7B3E80002A870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54E3867F21F7B3E80002A870 /* OddEvenSumApp.app */,
+				54E3869321F7B3E90002A870 /* OddEvenSumAppTests.xctest */,
+				54E3869E21F7B3E90002A870 /* OddEvenSumAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54E3868121F7B3E80002A870 /* OddEvenSumApp */ = {
+			isa = PBXGroup;
+			children = (
+				54E3868221F7B3E80002A870 /* AppDelegate.swift */,
+				54E3868421F7B3E80002A870 /* ViewController.swift */,
+				54E3868621F7B3E80002A870 /* Main.storyboard */,
+				54E3868921F7B3E90002A870 /* Assets.xcassets */,
+				54E3868B21F7B3E90002A870 /* LaunchScreen.storyboard */,
+				54E3868E21F7B3E90002A870 /* Info.plist */,
+			);
+			path = OddEvenSumApp;
+			sourceTree = "<group>";
+		};
+		54E3869621F7B3E90002A870 /* OddEvenSumAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				54E3869721F7B3E90002A870 /* OddEvenSumAppTests.swift */,
+				54E3869921F7B3E90002A870 /* Info.plist */,
+			);
+			path = OddEvenSumAppTests;
+			sourceTree = "<group>";
+		};
+		54E386A121F7B3E90002A870 /* OddEvenSumAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54E386A221F7B3E90002A870 /* OddEvenSumAppUITests.swift */,
+				54E386A421F7B3E90002A870 /* Info.plist */,
+			);
+			path = OddEvenSumAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54E3867E21F7B3E80002A870 /* OddEvenSumApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E386A721F7B3E90002A870 /* Build configuration list for PBXNativeTarget "OddEvenSumApp" */;
+			buildPhases = (
+				54E3867B21F7B3E80002A870 /* Sources */,
+				54E3867C21F7B3E80002A870 /* Frameworks */,
+				54E3867D21F7B3E80002A870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OddEvenSumApp;
+			productName = OddEvenSumApp;
+			productReference = 54E3867F21F7B3E80002A870 /* OddEvenSumApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54E3869221F7B3E90002A870 /* OddEvenSumAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E386AA21F7B3E90002A870 /* Build configuration list for PBXNativeTarget "OddEvenSumAppTests" */;
+			buildPhases = (
+				54E3868F21F7B3E90002A870 /* Sources */,
+				54E3869021F7B3E90002A870 /* Frameworks */,
+				54E3869121F7B3E90002A870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54E3869521F7B3E90002A870 /* PBXTargetDependency */,
+			);
+			name = OddEvenSumAppTests;
+			productName = OddEvenSumAppTests;
+			productReference = 54E3869321F7B3E90002A870 /* OddEvenSumAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54E3869D21F7B3E90002A870 /* OddEvenSumAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E386AD21F7B3E90002A870 /* Build configuration list for PBXNativeTarget "OddEvenSumAppUITests" */;
+			buildPhases = (
+				54E3869A21F7B3E90002A870 /* Sources */,
+				54E3869B21F7B3E90002A870 /* Frameworks */,
+				54E3869C21F7B3E90002A870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54E386A021F7B3E90002A870 /* PBXTargetDependency */,
+			);
+			name = OddEvenSumAppUITests;
+			productName = OddEvenSumAppUITests;
+			productReference = 54E3869E21F7B3E90002A870 /* OddEvenSumAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54E3867721F7B3E80002A870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ousmane Ouedraogo";
+				TargetAttributes = {
+					54E3867E21F7B3E80002A870 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					54E3869221F7B3E90002A870 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 54E3867E21F7B3E80002A870;
+					};
+					54E3869D21F7B3E90002A870 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 54E3867E21F7B3E80002A870;
+					};
+				};
+			};
+			buildConfigurationList = 54E3867A21F7B3E80002A870 /* Build configuration list for PBXProject "OddEvenSumApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54E3867621F7B3E80002A870;
+			productRefGroup = 54E3868021F7B3E80002A870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54E3867E21F7B3E80002A870 /* OddEvenSumApp */,
+				54E3869221F7B3E90002A870 /* OddEvenSumAppTests */,
+				54E3869D21F7B3E90002A870 /* OddEvenSumAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54E3867D21F7B3E80002A870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E3868D21F7B3E90002A870 /* LaunchScreen.storyboard in Resources */,
+				54E3868A21F7B3E90002A870 /* Assets.xcassets in Resources */,
+				54E3868821F7B3E80002A870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E3869121F7B3E90002A870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E3869C21F7B3E90002A870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E3867B21F7B3E80002A870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E3868521F7B3E80002A870 /* ViewController.swift in Sources */,
+				54E3868321F7B3E80002A870 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E3868F21F7B3E90002A870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E3869821F7B3E90002A870 /* OddEvenSumAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E3869A21F7B3E90002A870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E386A321F7B3E90002A870 /* OddEvenSumAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54E3869521F7B3E90002A870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54E3867E21F7B3E80002A870 /* OddEvenSumApp */;
+			targetProxy = 54E3869421F7B3E90002A870 /* PBXContainerItemProxy */;
+		};
+		54E386A021F7B3E90002A870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54E3867E21F7B3E80002A870 /* OddEvenSumApp */;
+			targetProxy = 54E3869F21F7B3E90002A870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54E3868621F7B3E80002A870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E3868721F7B3E80002A870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54E3868B21F7B3E90002A870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E3868C21F7B3E90002A870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54E386A521F7B3E90002A870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54E386A621F7B3E90002A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54E386A821F7B3E90002A870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OddEvenSumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.OddEvenSumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54E386A921F7B3E90002A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OddEvenSumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.OddEvenSumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54E386AB21F7B3E90002A870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OddEvenSumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.OddEvenSumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddEvenSumApp.app/OddEvenSumApp";
+			};
+			name = Debug;
+		};
+		54E386AC21F7B3E90002A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OddEvenSumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.OddEvenSumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddEvenSumApp.app/OddEvenSumApp";
+			};
+			name = Release;
+		};
+		54E386AE21F7B3E90002A870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OddEvenSumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.OddEvenSumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OddEvenSumApp;
+			};
+			name = Debug;
+		};
+		54E386AF21F7B3E90002A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OddEvenSumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.OddEvenSumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OddEvenSumApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54E3867A21F7B3E80002A870 /* Build configuration list for PBXProject "OddEvenSumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E386A521F7B3E90002A870 /* Debug */,
+				54E386A621F7B3E90002A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E386A721F7B3E90002A870 /* Build configuration list for PBXNativeTarget "OddEvenSumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E386A821F7B3E90002A870 /* Debug */,
+				54E386A921F7B3E90002A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E386AA21F7B3E90002A870 /* Build configuration list for PBXNativeTarget "OddEvenSumAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E386AB21F7B3E90002A870 /* Debug */,
+				54E386AC21F7B3E90002A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E386AD21F7B3E90002A870 /* Build configuration list for PBXNativeTarget "OddEvenSumAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E386AE21F7B3E90002A870 /* Debug */,
+				54E386AF21F7B3E90002A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54E3867721F7B3E80002A870 /* Project object */;
+}
